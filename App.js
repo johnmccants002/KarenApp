@@ -6,6 +6,7 @@ import { Login } from "./src/Login/Login";
 import { Register } from "./src/Register/Register";
 import { LoadingScreen } from "./src/Login/LoadingScreen";
 import Main from "./src/Main/Main";
+import GenerateComplaint from "./src/GenerateComplaint/GenerateComplaint";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -39,6 +40,13 @@ export default function App() {
           component={Main}
           options={{
             headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="GenerateComplaint"
+          component={GenerateComplaint}
+          options={{
+            headerShown: true,
           }}
         />
       </Stack.Navigator>

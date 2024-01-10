@@ -74,5 +74,9 @@
     <string>Light</string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to use the picture to generate a Karen complaint</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to use this to generate a Karen complaint</string>
   </dict>
 </plist>
